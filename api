@@ -1,0 +1,1 @@
+yarn --ignore-engines add dotenv uuid typeorm @nestjs/typeorm class-validator class-transformer pg mongodb sqlite3 bcrypt mysql cross-env @nestjs/config @nestjs/mongoose mongoose @nestjs/graphql graphql@^15 apollo-server-express

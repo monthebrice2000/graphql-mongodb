@@ -1,0 +1,27 @@
+# This file was generated based on ".graphqlconfig". Do not edit manually.
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Lessons {
+    endDate: String!
+    id: ID!
+    name: String!
+    startDate: String!
+}
+
+type Mutation {
+    createLesson(lesson: LessonDto!): Lessons!
+}
+
+type Query {
+    lesson(id: String!): Lessons!
+}
+
+input LessonDto {
+    endDate: String!
+    name: String!
+    startDate: String!
+}
